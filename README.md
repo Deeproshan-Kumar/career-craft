@@ -46,7 +46,7 @@ A modern, full-stack job application platform, built with bleeding-edge web tech
 ## 📦 Installation
 
 1. Clone the Repository
-git clone https://github.com/Deeproshan-Kumar/career-carft.git
+git clone https://github.com/Deeproshan-Kumar/career-craft.git
 cd career-craft
 
 2. Install Dependencies
