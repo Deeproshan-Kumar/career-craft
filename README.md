@@ -78,9 +78,9 @@ Here's a high-level roadmap of features and milestones:
 
 ## 🎯 MVP Goals
 
-✅ Job listings CRUD (employer-side)
-✅ Job search with filters (user-side)
-✅ User roles and basic auth
+✅ Job listings CRUD (employer-side)  
+✅ Job search with filters (user-side)  
+✅ User roles and basic auth  
 ✅ UI with ShadCN and Tailwind
  
  
