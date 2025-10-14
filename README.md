@@ -53,8 +53,7 @@ cd career-craft
 npm install
 
 3. Set up Environment
-.env
-# Then edit .env with your values
+.env then edit .env with your values
 
 4. Set up the Database
 Create the database manually or via CLI, then run:
@@ -74,9 +73,11 @@ npm run db:studio     # Open drizzle studio
 | **npm run db:studio**             | Open drizzle studio                           |
 
 ## 🚧 Roadmap
+
 Here's a high-level roadmap of features and milestones:
 
-🎯 MVP Goals
+## 🎯 MVP Goals
+
 ✅ Job listings CRUD (employer-side)
 ✅ Job search with filters (user-side)
 ✅ User roles and basic auth
@@ -84,15 +85,17 @@ Here's a high-level roadmap of features and milestones:
  
  
 ## ℹ️ Upcoming
-✅ Profile and resume management
-✅ Application submission tracking
-✅ Advanced filtering & job alerts
-✅ Email notifications
-✅ Employer dashboards
-✅ Admin panel
+
+✅ Profile and resume management  
+✅ Application submission tracking  
+✅ Advanced filtering & job alerts  
+✅ Email notifications  
+✅ Employer dashboards  
+✅ Admin panel  
 ✅ SEO optimization
 
 ## 🤝 Contributing
+
 Contributions are welcome! Please follow these steps:
 1. Fork the repository
 2. Create a new branch: git checkout -b feature/your-feature-name
@@ -101,9 +104,11 @@ Contributions are welcome! Please follow these steps:
 5. Please follow conventional commit messages and format your code using the existing ESLint/Tailwind config
 
 ## 📝 License
+
 This project has no any official license right now.
 
 ## 🙋‍♂️ Author
+
 **Deeproshan Kumar** | Software Engineer | Sr. Front End Developer  
 📧 deeproshankumar123@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/deeproshan-kumar/)  
