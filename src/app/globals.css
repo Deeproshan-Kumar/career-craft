@@ -120,6 +120,11 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  ::selection {
+    background: #000000;
+    color: #FFFFFF;
+  }
 }
 
 body {

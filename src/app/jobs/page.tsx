@@ -1,3 +1,6 @@
+"use client";
+
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
 import {
@@ -126,7 +129,7 @@ const page: React.FC = () => {
                   size="icon"
                   title="Apply"
                 >
-                  <SquareMousePointer size={12} />
+                  <Link href="/job/1234"><SquareMousePointer size={12} /></Link>
                 </Button>
                 <Button
                   className="cursor-pointer"

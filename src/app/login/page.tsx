@@ -41,7 +41,7 @@ const Login: React.FC = () => {
 
   return (
     <section className="h-full w-full p-5 pb-24">
-      <div className="max-w-md w-full mx-auto">
+      <div className="max-w-md w-full mx-auto px-3">
         <Logo className="justify-center mb-4" />
         <Card className="w-full">
           <CardHeader>

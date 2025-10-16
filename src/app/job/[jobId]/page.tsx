@@ -1,3 +1,5 @@
+"use client";
+
 import { ButtonGroup } from "@/components/ui/button-group";
 import { Button } from "@/components/ui/button";
 import { Bookmark, Share2 } from "lucide-react";
