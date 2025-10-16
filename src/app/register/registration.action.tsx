@@ -25,9 +25,9 @@ export const registrationAction = async (data: {
       password: hashPassword,
     });
 
-    return { success: true };
+    return { success: true, message: "Registration successful!" };
   } catch (error) {
     console.error("Error inserting user:", error);
-    return { success: false, error: "Registration failed." };
+    return { success: false, message: "Registration failed." };
   }
 };

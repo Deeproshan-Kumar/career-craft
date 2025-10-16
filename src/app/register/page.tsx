@@ -73,7 +73,7 @@ const Register: React.FC = () => {
     const result = await registrationAction(registerData);
 
     if (result.success) {
-      toast.success("Registration successful!");
+      toast.success(result.message);
       setRegisterFormData({
         name: "",
         userName: "",
@@ -84,7 +84,7 @@ const Register: React.FC = () => {
         confirmPassword: "",
       });
     } else {
-      toast.error("Registration failed: " + result.error);
+      toast.error("Registration failed: " + result.message);
     }
   };
 

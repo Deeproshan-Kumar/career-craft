@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import SearchBar from "@/components/SearchBar";
 import { MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import SearchBar from "@/components/SearchBar";
 
 const Homepage = () => {
   return (

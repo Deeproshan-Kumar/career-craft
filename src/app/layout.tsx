@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { Toaster } from "sonner";
 import "./globals.css";
 
@@ -23,11 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
-        <Header />
         <main className="min-h-screen w-full flex flex-col items-center justify-center">
           {children}
         </main>
-        <Footer />
         <Toaster />
       </body>
     </html>
